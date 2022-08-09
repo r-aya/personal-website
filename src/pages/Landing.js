@@ -1,11 +1,10 @@
 import React from "react";
 import { FaGithub, FaLine, FaLinkedinIn } from "react-icons/fa";
-import NavBar from "../components/NavBar";
 import { HiOutlineMail } from "react-icons/hi";
 import { TbGhost } from "react-icons/tb";
 import { AiOutlineSmile } from "react-icons/ai";
 import IconButton from "../components/IconButton";
-import NavBarTemp from "../components/NavBar";
+import NavBar from "../components/NavBar";
 
 function Landing() {
   return (
@@ -15,19 +14,18 @@ function Landing() {
         width: "100vw",
         height: "100vh",
         flexDirection: "column",
-        paddingTop: "120px",
+        paddingTop: "180px",
         alignItems: "center",
       }}
     >
       <div style={{ maxWidth: "550px" }}>
-        <NavBarTemp />
         <div>
           <h1 className="landing-title">Hi, I'm Raya!</h1>
 
-          <p className="landing-text">
-            I'm studying Software Engineering at the University of the Waterloo
-            with a minor in Combinatorics and Optimization. My interests include
-            data science, full-stack development, product design, and social
+          <p>
+            I'm studying Software Engineering at the University of Waterloo with
+            a minor in Combinatorics and Optimization. My interests include data
+            science, full-stack development, product design, and social
             enterprise.<br></br>
             <br></br>
             Recently, I interned at

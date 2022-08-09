@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
 import "../index.scss";
 
-function NavBarTemp() {
+function NavBar() {
   const items = ["home", "projects", "experience"];
   const [active, setActive] = useState(items[0]);
   const navigate = useNavigate();
@@ -11,6 +11,7 @@ function NavBarTemp() {
       style={{
         display: "flex",
         height: "45px",
+        paddingTop: "50px",
         width: "240px",
         alignItems: "center",
         justifyContent: "space-between",
@@ -42,4 +43,4 @@ function NavBarTemp() {
   );
 }
 
-export default NavBarTemp;
+export default NavBar;

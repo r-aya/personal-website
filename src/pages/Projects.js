@@ -6,16 +6,22 @@ function Projects() {
     <div
       style={{
         display: "flex",
-        height: "100vh",
         width: "100vw",
-        justifyContent: "center",
+        height: "100vh",
+        flexDirection: "column",
+        paddingTop: "180px",
+        alignItems: "center",
       }}
     >
-      <Timeline>
-        <Timeline.Item>hi </Timeline.Item>
-        <Timeline.Item>eedwedw</Timeline.Item>
-        <Timeline.Item>wedw</Timeline.Item>
-      </Timeline>
+      <div style={{ width: "550px" }}>
+        <div>
+          <h1 className="landing-title">Projects</h1>
+
+          <p>
+            Browse through a compilation of my past and ongoing projects.
+          </p>
+        </div>
+      </div>
     </div>
   );
 }
