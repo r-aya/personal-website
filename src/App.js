@@ -1,24 +1,17 @@
 import React from "react";
 import Landing from "./pages/Landing";
 import Projects from "./pages/Projects";
-import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
-import "./customizedAntD.css";
 import Experience from "./pages/Experience";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import "./index.scss";
+import "./customizedAntD.css";
+
+// import NavBar from "./components/NavBar";
 
 function App() {
   return (
     <div className="wrapper">
       <Router>
-        <div
-          style={{
-            position: "fixed",
-            top: 0,
-            left: "calc(50% - 120px)",
-          }}
-        >
-          {/* <NavBar /> */}
-        </div>
-
         <Routes>
           <Route exact path="/" element={<Landing />}></Route>
           <Route path="/projects" element={<Projects />}></Route>
