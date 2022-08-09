@@ -3,7 +3,6 @@ import Landing from "./pages/Landing";
 import Projects from "./pages/Projects";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import "./customizedAntD.css";
-import NavBar from "./components/NavBar";
 import Experience from "./pages/Experience";
 
 function App() {
