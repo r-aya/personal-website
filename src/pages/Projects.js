@@ -1,5 +1,4 @@
-import React, { useState } from "react";
-import { Timeline } from "antd";
+import React from "react";
 
 function Projects() {
   return (
@@ -17,9 +16,7 @@ function Projects() {
         <div>
           <h1 className="landing-title">Projects</h1>
 
-          <p>
-            Browse through a compilation of my past and ongoing projects.
-          </p>
+          <p>Browse through a compilation of my past and ongoing projects.</p>
         </div>
       </div>
     </div>

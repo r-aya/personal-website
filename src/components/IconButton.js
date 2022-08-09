@@ -9,7 +9,9 @@ function IconButton({ icon, text, url }) {
       color="#D3C3F4"
       overlayInnerStyle={{ fontSize: "12px", padding: "8px 10px" }}
     >
-      <a href={url} target="_blank"><button className="iconButton">{icon}</button></a>
+      <a href={url} target="_blank" rel="noreferrer">
+        <button className="iconButton">{icon}</button>
+      </a>
     </Tooltip>
   );
 }

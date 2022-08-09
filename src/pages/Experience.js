@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import { Timeline } from "antd";
 import { FaSuitcase } from "react-icons/fa";
 import { MdSchool } from "react-icons/md";

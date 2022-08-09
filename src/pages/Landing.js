@@ -1,10 +1,8 @@
 import React from "react";
-import { FaGithub, FaLine, FaLinkedinIn } from "react-icons/fa";
+import { FaGithub, FaLinkedinIn } from "react-icons/fa";
 import { HiOutlineMail } from "react-icons/hi";
-import { TbGhost } from "react-icons/tb";
 import { AiOutlineSmile } from "react-icons/ai";
 import IconButton from "../components/IconButton";
-import NavBar from "../components/NavBar";
 
 function Landing() {
   return (
@@ -34,24 +32,15 @@ function Landing() {
                 style={{ fontWeight: 600 }}
                 href="https://www.fairly.ai/"
                 target="_blank"
+                rel="noreferrer"
               >
                 &nbsp;Fairly&nbsp;
               </a>
             </span>
             as a Full-Stack Developer, where I worked on a bias and performance
             analysis feature and data drift visualizations. Previously, I
-            co-founded{" "}
-            <span className="link">
-              <a
-                style={{ fontWeight: 600 }}
-                href="https://www.fairly.ai/"
-                target="_blank"
-              >
-                &nbsp;Tabula
-              </a>
-            </span>
-            , earning $20K+ USD in pre-orders for a smart journal melding
-            traditional and digital note-taking.
+            co-founded Tabula, earning $20K+ USD in pre-orders for a smart
+            journal melding traditional and digital note-taking.
             <br></br>
             <br></br>
             This fall I'll be attending the
@@ -60,6 +49,7 @@ function Landing() {
                 style={{ fontWeight: 600 }}
                 href="https://ghc.anitab.org/"
                 target="_blank"
+                rel="noreferrer"
               >
                 &nbsp;Grace Hopper Celebration&nbsp;
               </a>
@@ -70,6 +60,7 @@ function Landing() {
                 style={{ fontWeight: 600 }}
                 href="https://uwblueprint.org/"
                 target="_blank"
+                rel="noreferrer"
               >
                 &nbsp;UW Blueprint&nbsp;
               </a>
